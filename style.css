@@ -5,6 +5,51 @@
 }
 
 body {
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Poppins", sans-serif;
     margin: 0;
+    min-height:100vh;
+}
+.pw-container {
+    background-color: rgb(45, 14, 75);
+    width: 400px;
+}
+.pw-header {
+    padding: 1rem;
+}
+.pw {
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    font-size:2rem;
+    height:70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+}
+.pw button {
+    background-color: white;
+    color: rgb(83, 61, 104);
+    border: none;
+    cursor:pointer;
+    padding: 0.25rem;
+    font-family: inherit;
+    position:absolute;
+    top: 0;
+    right:0;
+    transform: translate(0, -80%);
+    transition:opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.pw:hover button{
+    opacity: 1;
+
+}
+.pw-body {
+    padding: 1rem;
 }
