@@ -29,11 +29,12 @@ body {
     background-color: rebeccapurple;
     display: flex;
     align-items: center;
-    font-size:2rem;
+    font-size:1.5rem;
     height:70px;
     width: 100%;
     position: relative;
     padding: 1rem;
+    overflow: auto;
 }
 
 .pw button {
@@ -47,14 +48,14 @@ body {
     position:absolute;
     top: 0;
     right:0;
-    transform: translate(0, -50%);
-    transition:opacity 0.3s ease-in-out, transform 0.3s ease;
+    transform: translate(0, 20%);
+    transition:opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     opacity: 0;
 }
 
 .pw:hover button{
     opacity: 1;
-    transform: translate(0, -80%);
+    transform: translate(0, 0%);
 
 }
 .pw-body {
