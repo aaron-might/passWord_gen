@@ -18,7 +18,7 @@ body {
 .pw-container {
     background-color: rgb(45, 14, 75);
     box-shadow: 0 4px 10px rgba (0, 0, 0, 0.5);
-    width: 400px;
+    min-width: 400px;
 }
 
 .pw-header {
@@ -26,7 +26,7 @@ body {
 }
 
 .pw {
-    background-color: rebeccapurple;
+    background-color: rgb(69, 28, 109);
     display: flex;
     align-items: center;
     font-size:1.5rem;
@@ -72,11 +72,11 @@ body {
     background-color: #ecb602;
     border: none;
     color: rebeccapurple;
+    cursor: pointer;
     display: block;
     font-size: 1.5rem;
     font-weight:bold;
     padding: 0.75rem;
     margin-top: 1rem;
     width: 100%;
-
 }
